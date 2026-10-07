@@ -25,20 +25,21 @@ export default function RootLayout({
               <Link href="/" className="hover:text-red-500 transition-colors">
                 Beranda
               </Link>
-              <Link href="/profil" className="hover:text-red-500 transition-colors">
+              <Link href="/profile" className="hover:text-red-500 transition-colors">
                 Profil
               </Link>
-              <Link href="/portofolio" className="hover:text-red-500 transition-colors">
+              {/* Pastikan href="/portfolio" sesuai nama folder di explorer */}
+              <Link href="/portfolio" className="hover:text-red-500 transition-colors">
                 Portofolio
               </Link>
-              <Link href="/kontak" className="hover:text-red-500 transition-colors">
+              <Link href="/Kontak" className="hover:text-red-500 transition-colors">
                 Kontak
               </Link>
             </nav>
           </div>
         </header>
 
-        {/* Main Content */}
+
         <main className="max-w-5xl mx-auto px-6 py-8">
           {children}
         </main>
