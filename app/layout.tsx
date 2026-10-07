@@ -36,8 +36,11 @@ export default function RootLayout({
                 Kontak
               </Link>
               <Link href="/portfolio/bukutamu" className="hover:text-red-500 transition-colors">
-  Buku Tamu
-</Link>
+                Buku Tamu
+              </Link>
+              <Link href="/portfolio/blog" className="hover:text-red-500 transition-colors">
+                Blog
+              </Link>
             </nav>
           </div>
         </header>
