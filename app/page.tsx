@@ -29,7 +29,7 @@ export default function Home() {
             key={item.id}
             judul={item.judul}
             deskripsi={item.deskripsi}
-            tanggal={item.tanggal}
+techStack={["Next.js", "TypeScript"]}
           />
         ))}
       </div>

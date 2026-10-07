@@ -2,8 +2,8 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata = {
-  title: 'Mading & Portofolio',
-  description: 'Proyek Next.js Mading Digital',
+  title: 'Portofolio Saya',
+  description: 'Web Portofolio Developer',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
         <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
             <Link href="/" className="text-xl font-bold tracking-wider text-red-500">
-              MADING<span className="text-white">TELKOM</span>
+              DEV<span className="text-white">FOLIO.</span>
             </Link>
 
             <nav className="flex gap-6 text-sm font-medium">
@@ -38,7 +38,7 @@ export default function RootLayout({
           </div>
         </header>
 
-        {/* Konten Utama */}
+        {/* Main Content */}
         <main className="max-w-5xl mx-auto px-6 py-8">
           {children}
         </main>
